@@ -2,12 +2,10 @@ package me.frmr.wepay {
   import net.liftweb.common._
   import net.liftweb.util._
   import net.liftweb.json._
-    import Extraction._
     import JsonDSL._
 
-  import dispatch._
+  import dispatch.classic._
     import liftjson.Js._
-    import Http._
 
   /**
    * This class represents an error condition returned while
